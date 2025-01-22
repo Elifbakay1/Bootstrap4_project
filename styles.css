@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(45deg, #a8e6cf, #dcedc1, #ffd3b6, #ffaaa5);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
